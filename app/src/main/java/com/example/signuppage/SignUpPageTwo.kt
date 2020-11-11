@@ -20,7 +20,7 @@ class SignUpPageTwo : AppCompatActivity() {
                 monthOfYear: Int,
                 dayOfMonth: Int
             ) {
-                birthdate = "${picker.month}/${picker.dayOfMonth}/${picker.year}"
+                birthdate = "${picker.month + 1}/${picker.dayOfMonth}/${picker.year}"
             }
         })
         //Signup Button event listener that will execute signUp function with 6 parameters
